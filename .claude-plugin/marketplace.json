@@ -1,0 +1,19 @@
+{
+  "name": "ax-skill",
+  "owner": {
+    "name": "Michael Stingl"
+  },
+  "description": "Agent eXperience reviews with a source-backed catalog of 26 criteria across five principles.",
+  "plugins": [
+    {
+      "name": "ax",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/ax"
+      ],
+      "description": "Review a tool's Agent eXperience against a source-backed catalog \u2014 a residue report, never a pass, proposing fixes.",
+      "category": "development"
+    }
+  ]
+}
